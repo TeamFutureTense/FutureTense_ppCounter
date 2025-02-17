@@ -24,7 +24,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: release/theCounter.zip
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           tag_name: ${{ github.ref_name }}
           name: Release ${{ github.ref_name }}
           draft: false

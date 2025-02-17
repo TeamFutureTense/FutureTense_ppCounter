@@ -1,0 +1,7 @@
+Usecase: ingame
+Name:  FutureTense ppOverlay
+Author:  kimsseTheWolf
+CompatibleWith:  tosu
+Resolution:  ## Width x Height
+authorLinks:  ## Specify links via comma
+Notes: ## some markdown text

@@ -1,0 +1,218 @@
+2025-02-17T05:26:02.178Z info Starting tosu
+2025-02-17T05:26:02.189Z info [updater],Checking updates
+2025-02-17T05:26:02.188Z info [config],Config loaded
+2025-02-17T05:26:03.037Z info [updater],You're using latest version v4.2.0
+2025-02-17T05:26:03.038Z info Searching for osu!
+2025-02-17T05:26:03.050Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-02-17T05:26:03.061Z debug [ws],connected,6a312a39-429b
+2025-02-17T05:26:03.074Z debug [ws],connected,92bea2c8-ccb6
+2025-02-17T05:26:03.090Z debug [ws],connected,f9fba709-848c
+2025-02-17T05:26:03.105Z debug [ws],connected,91f6b2f1-0b85
+2025-02-17T05:26:03.120Z debug [ws],connected,f2a2ab1c-8a65
+2025-02-17T05:26:03.132Z info Web dashboard opened
+2025-02-17T05:26:03.136Z debug [ws],connected,fc163c12-4e6a
+2025-02-17T05:26:03.230Z debug [request],4.45ms,GET,200,text/html; charset=utf-8,/
+2025-02-17T05:26:03.267Z debug [request],2.29ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:26:03.267Z debug [request],1.88ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:26:03.268Z debug [request],2.04ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:26:03.268Z debug [request],1.87ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:26:03.269Z debug [request],2.80ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:26:03.357Z debug [request],1.96ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:26:03.359Z debug [request],0.75ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:26:03.360Z debug [request],2.33ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:26:04.200Z debug [ws],connected,b312d6d1-601e
+2025-02-17T05:26:06.599Z debug [request],0.71ms,GET,200,text/html; charset=utf-8,/?tab=3
+2025-02-17T05:26:06.601Z debug [request],0.49ms,GET,200,application/json,/api/counters/open/
+2025-02-17T05:26:06.628Z debug [request],1.16ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:26:06.628Z debug [request],1.18ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:26:06.629Z debug [request],1.42ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:26:06.630Z debug [request],1.05ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:26:06.630Z debug [request],2.21ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:26:06.703Z debug [request],0.46ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:26:06.704Z debug [request],2.17ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:26:06.704Z debug [request],2.31ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:27:32.156Z debug [request],0.91ms,GET,200,text/html; charset=utf-8,/?tab=3
+2025-02-17T05:27:32.177Z debug [request],0.69ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:27:32.178Z debug [request],0.43ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:27:32.178Z debug [request],0.51ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:27:32.179Z debug [request],0.57ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:27:32.180Z debug [request],1.44ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:27:32.235Z debug [request],0.42ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:27:32.236Z debug [request],1.97ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:27:32.237Z debug [request],2.45ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:27:32.269Z debug [request],1.07ms,GET,200,image/vnd.microsoft.icon; charset=utf-8,/assets/favicon.ico
+2025-02-17T05:27:32.824Z debug [request],0.50ms,GET,200,text/html; charset=utf-8,/?tab=3
+2025-02-17T05:27:32.844Z debug [request],0.56ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:27:32.846Z debug [request],0.87ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:27:32.847Z debug [request],0.93ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:27:32.847Z debug [request],0.70ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:27:32.848Z debug [request],1.87ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:27:32.901Z debug [request],0.65ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:27:32.902Z debug [request],1.95ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:27:32.902Z debug [request],2.18ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:27:32.923Z debug [request],0.54ms,GET,200,image/vnd.microsoft.icon; charset=utf-8,/assets/favicon.ico
+2025-02-17T05:27:43.037Z debug [request],1.59ms,GET,200,text/html; charset=utf-8,/?tab=0
+2025-02-17T05:27:43.072Z debug [request],0.84ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:27:43.073Z debug [request],0.58ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:27:43.073Z debug [request],0.64ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:27:43.074Z debug [request],0.54ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:27:43.074Z debug [request],1.33ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:27:43.109Z debug [request],1.56ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T05:27:43.135Z debug [request],1.64ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T05:27:43.135Z debug [request],1.01ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T05:27:43.135Z debug [request],1.47ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T05:27:43.135Z debug [request],0.84ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:27:43.136Z debug [request],2.96ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:27:43.136Z debug [request],3.65ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:27:43.138Z debug [request],0.40ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T05:27:43.429Z debug [request],0.57ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T05:27:43.434Z debug [ws],connected,e45ff5b7-efc4
+2025-02-17T05:27:52.607Z error /theCounter/settings.json,ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\settings.json'
+2025-02-17T05:27:52.607Z debug /theCounter/settings.json,Error: ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\settings.json'
+2025-02-17T05:27:52.608Z debug [request],0.82ms,GET,500,application/json,/theCounter/settings.json
+2025-02-17T05:28:12.083Z debug stable,5672,gameplay init (undefined - undefined)
+2025-02-17T05:28:12.083Z debug stable,5672,resultScreen init
+2025-02-17T05:28:12.084Z info [5672 0] Running memory chimera...
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,baseAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,playTimeAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,chatCheckerPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,skinDataAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,settingsClassAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,configurationAddr: 7CBDDE5
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,bindingsAddr: 7A47CD5
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,rulesetsAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,canRunSlowlyAddr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,menuModsPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,statusPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,userProfilePtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,getAudioLengthPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,rawLoginStatusPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,spectatingUserPtr: 0
+2025-02-17T05:28:12.879Z debug stable,5672,checkIsBasesValid,gameTimePtr: 0
+2025-02-17T05:28:12.883Z debug stable,5672,Pattern scanning failed, Trying one more time...,Error: Memory resolve failed
+2025-02-17T05:28:12.883Z error stable,5672,Pattern scanning failed, Trying one more time...,Memory resolve failed
+2025-02-17T05:28:13.895Z debug stable,5672,resultScreen init
+2025-02-17T05:28:13.895Z debug stable,5672,gameplay init (undefined - undefined)
+2025-02-17T05:28:13.895Z info [5672 0] Running memory chimera...
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,baseAddr: 16237F87
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,playTimeAddr: 10032B4A
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,chatCheckerPtr: 199BA99A
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,skinDataAddr: 1623023B
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,configurationAddr: 7CBDDE5
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,settingsClassAddr: A866DB0
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,rulesetsAddr: 56BC107
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,canRunSlowlyAddr: 199B1930
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,bindingsAddr: 7A47CD5
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,statusPtr: 56BDAC4
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,menuModsPtr: 160113D3
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,getAudioLengthPtr: 199BC067
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,userProfilePtr: 1601129A
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,spectatingUserPtr: 199B6124
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,rawLoginStatusPtr: 19978434
+2025-02-17T05:28:15.370Z info stable,5672,All patterns resolved within 1474.59ms
+2025-02-17T05:28:15.370Z debug stable,5672,checkIsBasesValid,gameTimePtr: 10060218
+2025-02-17T05:28:15.370Z debug stable,5672,regularDataLoop
+2025-02-17T05:28:15.373Z debug stable,5672,beatmapPP updateMapMetadata,Skip osu! music theme file,[object Object]
+2025-02-17T05:28:32.604Z debug [request],0.58ms,GET,200,text/html; charset=utf-8,/?tab=2
+2025-02-17T05:28:32.609Z debug [ws],closed,e45ff5b7-efc4,1001,
+2025-02-17T05:28:32.636Z debug [request],0.94ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:28:32.636Z debug [request],0.84ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:28:32.637Z debug [request],0.29ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:28:32.639Z debug [request],0.72ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:28:32.640Z debug [request],2.08ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:28:32.700Z debug [request],0.46ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:28:32.703Z debug [request],3.23ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:28:32.702Z debug [request],1.94ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:28:39.463Z debug [request],0.70ms,POST,200,application/json,/api/settingsSave
+2025-02-17T05:28:39.464Z info [config],Config reloaded
+2025-02-17T05:28:39.464Z debug [request],1.11ms,GET,200,image/png; charset=utf-8,/assets/images/39979.png
+2025-02-17T05:28:40.817Z debug [request],5.15ms,GET,200,text/html; charset=utf-8,/?tab=0
+2025-02-17T05:28:40.848Z debug [request],0.94ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:28:40.850Z debug [request],1.26ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:28:40.851Z debug [request],1.03ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:28:40.852Z debug [request],1.89ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:28:40.854Z debug [request],3.72ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:28:40.894Z debug [request],1.44ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T05:28:40.908Z debug [request],0.89ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:28:40.913Z debug [request],6.82ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T05:28:40.913Z debug [request],7.06ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:28:40.924Z debug [request],2.45ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T05:28:40.924Z debug [request],1.53ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T05:28:40.924Z debug [request],2.25ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T05:28:40.924Z debug [request],1.29ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T05:28:40.995Z debug [request],0.95ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T05:28:41.003Z debug [ws],connected,625cbeea-4bcf
+2025-02-17T05:28:47.634Z warn [ingame-overlay] initialized successfully
+Press ctrl+shift+space in the game to enable in-game overlay editor
+
+2025-02-17T05:28:47.965Z debug [request],2.71ms,GET,200,text/html; charset=utf-8,/api/ingame
+2025-02-17T05:28:47.972Z debug [request],0.59ms,GET,200,text/css; charset=utf-8,/assets/ingame.css
+2025-02-17T05:28:47.974Z debug [request],0.93ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T05:28:47.975Z debug [request],0.64ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T05:28:47.977Z debug [request],2.26ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T05:28:47.977Z debug [request],1.86ms,GET,200,text/javascript; charset=utf-8,/assets/ingame.js
+2025-02-17T05:28:47.977Z debug [request],0.75ms,GET,200,image/png; charset=utf-8,/assets/images/39979.png
+2025-02-17T05:28:47.978Z debug [request],1.96ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T05:28:47.978Z debug [request],3.02ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T05:28:48.000Z debug [request],0.45ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T05:28:48.001Z debug [request],2.16ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T05:28:48.014Z debug [ws],connected,3da2023c-9566
+2025-02-17T05:28:48.024Z debug [request],0.52ms,GET,200,image/png; charset=utf-8,/assets/images/arrow.png
+2025-02-17T05:28:48.028Z debug [request],0.49ms,GET,200,image/vnd.microsoft.icon; charset=utf-8,/favicon.ico
+2025-02-17T05:28:48.122Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:28:48.123Z debug [ws],commands,getCounters:__ingame__
+2025-02-17T05:28:54.408Z debug [request],0.40ms,GET,301,,/theCounter
+2025-02-17T05:28:54.412Z debug [request],1.18ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T05:28:54.417Z debug [request],1.00ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T05:28:54.417Z debug [request],0.76ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T05:28:54.417Z debug [request],0.71ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T05:28:54.417Z debug [request],0.66ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T05:28:54.426Z debug [request],0.43ms,GET,200,image/png; charset=utf-8,/assets/images/ns-resize.png
+2025-02-17T05:28:54.572Z debug [request],0.55ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T05:28:54.577Z debug [ws],connected,92b63113-064e
+2025-02-17T05:28:54.808Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:28:54.810Z debug [request],2.47ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:28:54.809Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:28:54.892Z debug [request],0.66ms,GET,200,image/png; charset=utf-8,/assets/images/move.png
+2025-02-17T05:28:56.192Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:28:56.193Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:28:56.193Z debug [request],1.99ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:28:58.281Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:28:58.282Z debug [request],1.45ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:28:58.281Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:00.761Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:00.762Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:00.762Z debug [request],1.38ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:02.008Z debug [request],0.62ms,GET,200,image/png; charset=utf-8,/assets/images/ew-resize.png
+2025-02-17T05:29:02.041Z debug [request],0.47ms,GET,200,image/png; charset=utf-8,/assets/images/nw-resize.png
+2025-02-17T05:29:05.746Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:05.747Z debug [request],1.45ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:05.746Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:08.691Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:08.691Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:08.692Z debug [request],1.30ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:08.708Z debug [ws],closed,92b63113-064e,1001,
+2025-02-17T05:29:11.066Z debug [request],0.65ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T05:29:11.071Z debug [request],1.02ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T05:29:11.071Z debug [request],0.80ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T05:29:11.071Z debug [request],0.74ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T05:29:11.071Z debug [request],0.65ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T05:29:11.076Z debug [request],0.51ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T05:29:11.079Z debug [ws],connected,0bf8f52d-216f
+2025-02-17T05:29:11.474Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:11.474Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:11.475Z debug [request],1.28ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:13.717Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:13.717Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:13.718Z debug [request],1.27ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:14.841Z debug [request],0.84ms,GET,200,image/png; charset=utf-8,/assets/images/ns-resize.png
+2025-02-17T05:29:14.856Z debug [request],0.44ms,GET,200,image/png; charset=utf-8,/assets/images/arrow.png
+2025-02-17T05:29:14.913Z info Settings saved: __ingame__ (http://127.0.0.1:24050/api/ingame)
+2025-02-17T05:29:14.914Z debug [ws],commands,getSettings:__ingame__
+2025-02-17T05:29:14.914Z debug [request],1.72ms,POST,200,application/json,/api/counters/settings/__ingame__
+2025-02-17T05:29:22.395Z debug stable,5672,beatmapPP updateMapMetadata,[3.16ms] Spend on opening beatmap
+2025-02-17T05:29:22.405Z debug stable,5672,beatmapPP updateMapMetadata,[9.96ms] Spend on attributes & strains calculation
+2025-02-17T05:29:22.410Z debug stable,5672,beatmapPP updateMapMetadata,[18.08ms] Total spent time
+2025-02-17T05:29:22.410Z debug stable,5672,beatmapPP updateMapMetadata,[4.86ms] Spend on parsing beatmap
+2025-02-17T05:29:22.414Z debug stable,5672,beatmapPP updateGraph,[1.13ms] Spend on processing graph strains
+2025-02-17T05:29:22.412Z debug stable,5672,beatmapPP updateGraph,[1.82ms] Spend on processing graph strains

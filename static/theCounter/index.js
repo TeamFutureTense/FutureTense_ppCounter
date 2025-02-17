@@ -53,7 +53,7 @@ const songSelect_totalCounter = new CountUp(
   }
 );
 
-const animDuration = 250;
+const animDuration = 125;
 
 function ingameFadeOut(callback) {
   anime({

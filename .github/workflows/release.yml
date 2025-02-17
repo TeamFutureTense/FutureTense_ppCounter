@@ -1,0 +1,31 @@
+name: Release theCounter Package
+
+on:
+  push:
+    tags:
+      - '*'  # 监听所有 tags
+
+jobs:
+  release:
+    name: Package and Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Archive theCounter folder
+        run: |
+          mkdir -p release
+          zip -r release/theCounter.zip static/theCounter
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release/theCounter.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false

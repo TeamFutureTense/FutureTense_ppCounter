@@ -64,8 +64,10 @@ const songSelect_totalCounter = new CountUp(
 
 
 // receive message update from websocket
-socket.api_v2(({ play }) => {
+socket.api_v2(({ play, state }) => {
   try {
+    console.log("Got data from ws")
+    // pp counters
     if (cache.pp !== Math.round(play.pp.current)) {
       cache.pp = Math.round(play.pp.current);
       document.getElementById('ingame_currCounter').innerHTML = Math.round(play.pp.current);
@@ -75,6 +77,16 @@ socket.api_v2(({ play }) => {
       document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
       document.getElementById('songSelect_totalCounter').innerHTML = Math.round(play.pp.fc);
     };
+
+    // state manager
+    // if (state.name === "Menu") {
+    //   document.getElementById('songSelect').classList.remove("hide");
+    //   document.getElementById('ingame').classList.add("hide");
+    // }
+    // else {
+    //   document.getElementById('songSelect').classList.add("hide");
+    //   document.getElementById('ingame').classList.remove("hide");
+    // }
   } catch (error) {
     console.log(error);
   };

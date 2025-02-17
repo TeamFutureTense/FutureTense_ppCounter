@@ -126,7 +126,13 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
         cache.pp = Math.round(play.pp.fc);
         document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
       }
-    } else if (state.name === 'resultScreen') {
+
+      // update letter grade icon
+      document.getElementById("ingame_Section_Grade").classList.remove("hide");
+      const icon = `./img/ranking-${play.rank.current}-small.svg`;
+      document.getElementById('gradeDisplay').src = icon;
+    } 
+    else if (state.name === 'resultScreen') {
       songSelectFadeOut(() => {
         ingameFadeIn();
       });
@@ -134,14 +140,20 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
       // update pp counters
       document.getElementById('ingame_currCounter').innerHTML = Math.round(resultsScreen.pp.current);
       document.getElementById('ingame_totalCounter').innerHTML = Math.round(resultsScreen.pp.fc);
-    } else if (state.name === 'selectPlay') {
+
+      document.getElementById("ingame_Section_Grade").classList.add("hide");
+    } 
+    else if (state.name === 'selectPlay') {
+      document.getElementById("ingame_Section_Grade").classList.add("hide");
       ingameFadeOut(() => {
         songSelectFadeIn();
       });
 
       // update pp counter
       document.getElementById('songSelect_totalCounter').innerHTML = Math.round(performance.accuracy[100]).toString();
-    } else {
+      document.getElementById("ingame_Section_Grade").classList.add("hide");
+    } 
+    else {
       songSelectFadeOut(() => {
         ingameFadeOut();
       });

@@ -7,6 +7,18 @@ This component is an in-game overlay powered by [tosu](https://github.com/tosuap
 
 This overlay supports both Stable and Lazer, and work with any skins.
 
+Click [here](#getting-started-🚀) to get started
+
+## Screenshots 📷
+Song selection in Lazer
+![Appearance In Lazer](./1.png)
+
+Song selection in Stable
+![Appearance In Stable](./2.png)
+
+In-game appearance
+![In-game](./3.png)
+
 ## Getting Started 🚀
 
 1. Download the latest version from Release

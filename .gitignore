@@ -1,3 +1,6 @@
+game-overlay
 game-overlay/*
 tosu.exe
 tsosu.env
+logs
+logs/*

@@ -4,13 +4,9 @@ tosu.exe
 tsosu.env
 logs/
 logs/*.*
-static/InGame2 by Dartandr/index.css
-static/InGame2 by Dartandr/index.html
-static/InGame2 by Dartandr/index.js
-static/InGame2 by Dartandr/metadata.txt
-static/InGame2 by Dartandr/readme.md
-static/InGame2 by Dartandr/deps/countUp.js
-static/InGame2 by Dartandr/deps/reconnecting-websocket.min.js
-static/InGame2 by Dartandr/resources/MPLUSRounded1c-ExtraBold.ttf
 settings/
 settings/*.*
+static/BTMC-Overlay by Happy_24
+static/InGame2 by Dartandr
+settings
+settings/__ingame__.values.json

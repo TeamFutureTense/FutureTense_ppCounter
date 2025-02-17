@@ -64,28 +64,42 @@ const songSelect_totalCounter = new CountUp(
 
 
 // receive message update from websocket
-socket.api_v2(({ play, state }) => {
+socket.api_v2(({ play, state, performance, resultsScreen }) => {
   try {
     console.log("Got data from ws")
-    // pp counters
-    if (cache.pp !== Math.round(play.pp.current)) {
-      cache.pp = Math.round(play.pp.current);
-      document.getElementById('ingame_currCounter').innerHTML = Math.round(play.pp.current);
-    };
-    if (cache.pp !== Math.round(play.pp.fc)) {
-      cache.pp = Math.round(play.pp.fc);
-      document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
-      document.getElementById('songSelect_totalCounter').innerHTML = Math.round(play.pp.fc);
-    };
-
     // state manager
     if (state.name === "play") {
       document.getElementById('songSelect').classList.add("hide");
       document.getElementById('ingame').classList.remove("hide");
+
+      // pp counters
+      if (cache.pp !== Math.round(play.pp.current)) {
+        cache.pp = Math.round(play.pp.current);
+        document.getElementById('ingame_currCounter').innerHTML = Math.round(play.pp.current);
+      };
+      if (cache.pp !== Math.round(play.pp.fc)) {
+        cache.pp = Math.round(play.pp.fc);
+        document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
+      };
+    }
+    else if (state.name === 'resultScreen') {
+      document.getElementById('songSelect').classList.add("hide");
+      document.getElementById('ingame').classList.remove("hide");
+
+      // update pp counters
+      document.getElementById('ingame_currCounter').innerHTML = Math.round(resultsScreen.pp.current);
+      document.getElementById('ingame_totalCounter').innerHTML = Math.round(resultsScreen.pp.fc);
+    }
+    else if (state.name === 'selectPlay') {
+      document.getElementById('songSelect').classList.remove("hide");
+      document.getElementById('ingame').classList.add("hide");
+
+      // update pp counter
+      document.getElementById('songSelect_totalCounter').innerHTML = Math.round(performance.accuracy[100]).toString();
     }
     else {
       document.getElementById('songSelect').classList.add("hide");
-      document.getElementById('ingame').classList.remove("hide");
+      document.getElementById('ingame').classList.add("hide");
     }
   } catch (error) {
     console.log(error);

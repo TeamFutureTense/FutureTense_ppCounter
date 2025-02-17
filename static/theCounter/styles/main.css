@@ -42,6 +42,7 @@ body {
   border-radius: var(--border-radius);
   width: fit-content;
   height: var(--container-height);
+  margin-left: auto;
 }
 
 .display-unit {

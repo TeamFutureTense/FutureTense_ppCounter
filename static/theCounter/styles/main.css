@@ -1,24 +1,77 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@font-face {
+  font-family: 'octarine';
+  src: url('./fonts/octarine.bold.otf');
+  font-weight: bold;
+}
 
-* {
-  padding: 0;
+@font-face {
+  font-family: 'octarine';
+  src: url('./fonts/octarine.light.otf');
+  font-weight: normal;
+}
+
+:root {
+  --border-radius: 7px;
+  --container-height: 35px;
+  --unit-display-padding: 10px;
+}
+
+html {
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'octarine';
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
   color: white;
-  font-size: 40px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'octarine';
 }
 
-.test-style {
+.main-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #2a2a2a;
+  border-radius: var(--border-radius);
+  width: fit-content;
+  height: var(--container-height);
 }
 
-.test-style>span:nth-child(2) {
-  /* font-size: 0.8em; */
-  color: #558cc8;
+.display-unit {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding-left: var(--unit-display-padding);
+  padding-right: var(--unit-display-padding);
+  width: fit-content;
+  height: 100%;
+  border-radius: var(--border-radius);
+}
+
+.white {
+  background-color: white;
+  color: #2a2a2a;
+}
+
+.small-title {
+  font-size: 6px;
+}
+
+.horizontal-text {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.number-deco-text {
+  margin-bottom: 3px;
 }

@@ -79,15 +79,16 @@ socket.api_v2(({ play, state }) => {
     };
 
     // state manager
-    // if (state.name === "Menu") {
-    //   document.getElementById('songSelect').classList.remove("hide");
-    //   document.getElementById('ingame').classList.add("hide");
-    // }
-    // else {
-    //   document.getElementById('songSelect').classList.add("hide");
-    //   document.getElementById('ingame').classList.remove("hide");
-    // }
+    if (state.name === "play") {
+      document.getElementById('songSelect').classList.add("hide");
+      document.getElementById('ingame').classList.remove("hide");
+    }
+    else {
+      document.getElementById('songSelect').classList.add("hide");
+      document.getElementById('ingame').classList.remove("hide");
+    }
   } catch (error) {
     console.log(error);
   };
 });
+

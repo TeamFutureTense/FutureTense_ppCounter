@@ -869,3 +869,69 @@ Press ctrl+shift+space in the game to enable in-game overlay editor
 2025-02-17T06:27:46.870Z debug stable,5672,beatmapPP updateMapMetadata,[2.66ms] Total spent time
 2025-02-17T06:27:46.871Z debug stable,5672,beatmapPP updateGraph,[0.21ms] Spend on processing graph strains
 2025-02-17T06:27:46.871Z debug stable,5672,beatmapPP updateGraph,[0.18ms] Spend on processing graph strains
+2025-02-17T06:29:04.634Z debug stable,5672,beatmapPP updateMapMetadata,[1.11ms] Spend on attributes & strains calculation
+2025-02-17T06:29:04.633Z debug stable,5672,beatmapPP updateMapMetadata,[0.67ms] Spend on opening beatmap
+2025-02-17T06:29:04.637Z debug stable,5672,beatmapPP updateMapMetadata,[2.95ms] Spend on parsing beatmap
+2025-02-17T06:29:04.637Z debug stable,5672,beatmapPP updateMapMetadata,[4.77ms] Total spent time
+2025-02-17T06:29:04.638Z debug stable,5672,beatmapPP updateGraph,[0.81ms] Spend on processing graph strains
+2025-02-17T06:29:04.639Z debug stable,5672,beatmapPP updateGraph,[0.80ms] Spend on processing graph strains
+2025-02-17T06:31:13.922Z debug [request],297.60ms,GET,200,text/html; charset=utf-8,/?tab=1
+2025-02-17T06:31:13.930Z debug [ws],closed,e6e277b6-fd80,1001,
+2025-02-17T06:31:13.949Z debug [request],0.82ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T06:31:13.950Z debug [request],0.30ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T06:31:13.951Z debug [request],0.45ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T06:31:13.952Z debug [request],0.49ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T06:31:13.953Z debug [request],1.37ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T06:31:14.034Z debug [request],0.65ms,GET,200,image/svg+xml; charset=utf-8,/assets/images/github-000000.svg
+2025-02-17T06:31:14.034Z debug [request],0.49ms,GET,200,image/svg+xml; charset=utf-8,/assets/images/twitter-1DA1F2.svg
+2025-02-17T06:31:14.035Z debug [request],0.52ms,GET,200,image/svg+xml; charset=utf-8,/assets/images/discord-5865f2.svg
+2025-02-17T06:31:14.037Z debug [request],0.56ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T06:31:14.037Z debug [request],3.01ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T06:31:14.038Z debug [request],2.49ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T06:31:50.970Z debug stable,5672,beatmapPP updateGraph,[1.02ms] Spend on processing graph strains
+2025-02-17T06:31:50.973Z debug stable,5672,BassDensity updateState,TypeError: Couldn't read int at 10
+2025-02-17T06:31:51.075Z debug stable,5672,beatmapPP updateGraph,[0.80ms] Spend on processing graph strains
+2025-02-17T06:32:00.382Z debug stable,5672,beatmapPP updateMapMetadata,[3.53ms] Spend on attributes & strains calculation
+2025-02-17T06:32:00.379Z debug stable,5672,beatmapPP updateMapMetadata,[1.47ms] Spend on opening beatmap
+2025-02-17T06:32:00.391Z debug stable,5672,beatmapPP updateMapMetadata,[8.43ms] Spend on parsing beatmap
+2025-02-17T06:32:00.391Z debug stable,5672,beatmapPP updateMapMetadata,[13.47ms] Total spent time
+2025-02-17T06:32:00.395Z debug stable,5672,beatmapPP updateGraph,[3.81ms] Spend on processing graph strains
+2025-02-17T06:32:00.398Z debug stable,5672,beatmapPP updateGraph,[3.06ms] Spend on processing graph strains
+2025-02-17T06:32:04.472Z debug [request],0.65ms,GET,200,image/png; charset=utf-8,/assets/images/39979.png
+2025-02-17T06:32:06.093Z info PP Counter downloaded: InGame2 by Dartandr (http://127.0.0.1:24050/?tab=1)
+2025-02-17T06:32:06.094Z debug [ws],commands,getCounters:__ingame__
+2025-02-17T06:32:06.094Z debug [ws],commands,getCounters:__ingame__
+2025-02-17T06:32:06.094Z debug [ws],commands,getCounters:__ingame__
+2025-02-17T06:32:06.097Z debug [request],1630.12ms,GET,200,application/json,/api/counters/download/https://osuck.link/redirect/https://files.osuck.link/tosu/ingame2%20by%20dartandr%20v1.001.zip?name=InGame2+by+Dartandr
+2025-02-17T06:32:07.305Z debug [request],2.09ms,GET,200,text/html; charset=utf-8,/?tab=0
+2025-02-17T06:32:07.340Z debug [request],0.48ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T06:32:07.340Z debug [request],1.49ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T06:32:07.344Z debug [request],2.18ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T06:32:07.345Z debug [request],2.25ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T06:32:07.345Z debug [request],3.15ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T06:32:07.386Z debug [request],1.27ms,GET,200,text/html; charset=utf-8,/InGame2%20by%20Dartandr/
+2025-02-17T06:32:07.386Z debug [request],1.14ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T06:32:07.400Z debug [request],0.55ms,GET,200,image/svg+xml; charset=utf-8,/assets/images/github-000000.svg
+2025-02-17T06:32:07.408Z debug [request],0.68ms,GET,200,text/css; charset=utf-8,/InGame2%20by%20Dartandr/index.css
+2025-02-17T06:32:07.408Z debug [request],0.66ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T06:32:07.409Z debug [request],0.57ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T06:32:07.409Z debug [request],0.70ms,GET,200,text/javascript; charset=utf-8,/InGame2%20by%20Dartandr/deps/reconnecting-websocket.min.js
+2025-02-17T06:32:07.410Z debug [request],3.65ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T06:32:07.411Z debug [request],3.76ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T06:32:07.414Z debug [request],1.66ms,GET,200,text/javascript; charset=utf-8,/InGame2%20by%20Dartandr/deps/countUp.js
+2025-02-17T06:32:07.414Z debug [request],1.52ms,GET,200,text/javascript; charset=utf-8,/InGame2%20by%20Dartandr/index.js
+2025-02-17T06:32:07.422Z debug [request],8.50ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T06:32:07.422Z debug [request],9.30ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T06:32:07.423Z debug [request],9.27ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T06:32:07.523Z error /theCounter/styles/fonts/octarine.light.otf,ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.light.otf'
+2025-02-17T06:32:07.523Z debug /theCounter/styles/fonts/octarine.light.otf,Error: ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.light.otf'
+2025-02-17T06:32:07.523Z error /theCounter/styles/fonts/octarine.bold.otf,ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.bold.otf'
+2025-02-17T06:32:07.523Z debug [request],0.80ms,GET,500,application/json,/theCounter/styles/fonts/octarine.light.otf
+2025-02-17T06:32:07.524Z debug [request],0.43ms,GET,500,application/json,/theCounter/styles/fonts/octarine.bold.otf
+2025-02-17T06:32:07.523Z debug /theCounter/styles/fonts/octarine.bold.otf,Error: ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.bold.otf'
+2025-02-17T06:32:07.531Z debug [ws],connected,d2ad0476-b8cd
+2025-02-17T06:32:07.535Z debug [request],1.03ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T06:32:07.537Z debug [request],3.41ms,GET,200,application/font-ttf; charset=utf-8,/InGame2%20by%20Dartandr/resources/MPLUSRounded1c-ExtraBold.ttf
+2025-02-17T06:32:07.543Z debug [ws],connected,68c7eb36-78d6
+2025-02-17T06:32:08.929Z info PP Counter opened: InGame2%20by%20Dartandr (http://127.0.0.1:24050/?tab=0)
+2025-02-17T06:32:09.005Z debug [request],76.01ms,GET,200,application/json,/api/counters/open/InGame2%20by%20Dartandr

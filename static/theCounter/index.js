@@ -1,5 +1,6 @@
 // connecting to websocket
 import WebSocketManager from './js/socket.js';
+import anime from './js/anime.js';
 const socket = new WebSocketManager('127.0.0.1:24050');
 
 

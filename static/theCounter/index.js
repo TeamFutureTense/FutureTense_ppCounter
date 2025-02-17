@@ -3,7 +3,6 @@ import WebSocketManager from './js/socket.js';
 import anime from './js/anime.js';
 const socket = new WebSocketManager('127.0.0.1:24050');
 
-
 // cache values here to prevent constant updating
 const cache = {
   h100: -1,
@@ -12,13 +11,6 @@ const cache = {
   accuracy: -1,
 };
 
-
-
-// Smoouth numbers update
-// const accuracy = new CountUp('accuracy', 0, 0, 2, .5, { useEasing: true, useGrouping: true, separator: " ", decimal: "." })
-// const h100 = new CountUp('h100', 0, 0, 0, .5, { useEasing: true, useGrouping: true, separator: " ", decimal: "." })
-// const h50 = new CountUp('h50', 0, 0, 0, .5, { useEasing: true, useGrouping: true, separator: " ", decimal: "." })
-// const h0 = new CountUp('h0', 0, 0, 0, .5, { useEasing: true, useGrouping: true, separator: " ", decimal: "." })
 const ingame_currCounter = new CountUp(
   'ingame_currCounter', 
   0, 
@@ -31,7 +23,7 @@ const ingame_currCounter = new CountUp(
     separator: " ", 
     decimal: "." 
   }
-)
+);
 
 const ingame_totalCounter = new CountUp(
   'ingame_totalCounter', 
@@ -45,7 +37,7 @@ const ingame_totalCounter = new CountUp(
     separator: " ", 
     decimal: "." 
   }
-)
+);
 
 const songSelect_totalCounter = new CountUp(
   'songSelect_totalCounter', 
@@ -59,51 +51,103 @@ const songSelect_totalCounter = new CountUp(
     separator: " ", 
     decimal: "." 
   }
-)
+);
 
+const animDuration = 250;
 
+function ingameFadeOut(callback) {
+  anime({
+    targets: '#ingame',
+    opacity: 0,
+    duration: animDuration,
+    easing: 'easeOutQuad',
+    complete: function() {
+      document.getElementById('ingame').classList.add("hide");
+      if (callback) callback();
+    }
+  });
+}
 
+function ingameFadeIn(callback) {
+  document.getElementById('ingame').classList.remove("hide");
+  anime({
+    targets: '#ingame',
+    opacity: 1,
+    duration: animDuration,
+    easing: 'easeOutQuad',
+    complete: function() {
+      if (callback) callback();
+    }
+  });
+}
+
+function songSelectFadeOut(callback) {
+  anime({
+    targets: '#songSelect',
+    opacity: 0,
+    duration: animDuration,
+    easing: 'easeOutQuad',
+    complete: function() {
+      document.getElementById('songSelect').classList.add("hide");
+      if (callback) callback();
+    }
+  });
+}
+
+function songSelectFadeIn(callback) {
+  document.getElementById('songSelect').classList.remove("hide");
+  anime({
+    targets: '#songSelect',
+    opacity: 1,
+    duration: animDuration,
+    easing: 'easeOutQuad',
+    complete: function() {
+      if (callback) callback();
+    }
+  });
+}
 
 // receive message update from websocket
 socket.api_v2(({ play, state, performance, resultsScreen }) => {
   try {
-    console.log("Got data from ws")
+    console.log("Got data from ws");
     // state manager
     if (state.name === "play") {
-      document.getElementById('songSelect').classList.add("hide");
-      document.getElementById('ingame').classList.remove("hide");
+      songSelectFadeOut(() => {
+        ingameFadeIn();
+      });
 
       // pp counters
       if (cache.pp !== Math.round(play.pp.current)) {
         cache.pp = Math.round(play.pp.current);
         document.getElementById('ingame_currCounter').innerHTML = Math.round(play.pp.current);
-      };
+      }
       if (cache.pp !== Math.round(play.pp.fc)) {
         cache.pp = Math.round(play.pp.fc);
         document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
-      };
-    }
-    else if (state.name === 'resultScreen') {
-      document.getElementById('songSelect').classList.add("hide");
-      document.getElementById('ingame').classList.remove("hide");
+      }
+    } else if (state.name === 'resultScreen') {
+      songSelectFadeOut(() => {
+        ingameFadeIn();
+      });
 
       // update pp counters
       document.getElementById('ingame_currCounter').innerHTML = Math.round(resultsScreen.pp.current);
       document.getElementById('ingame_totalCounter').innerHTML = Math.round(resultsScreen.pp.fc);
-    }
-    else if (state.name === 'selectPlay') {
-      document.getElementById('songSelect').classList.remove("hide");
-      document.getElementById('ingame').classList.add("hide");
+    } else if (state.name === 'selectPlay') {
+      ingameFadeOut(() => {
+        songSelectFadeIn();
+      });
 
       // update pp counter
       document.getElementById('songSelect_totalCounter').innerHTML = Math.round(performance.accuracy[100]).toString();
-    }
-    else {
-      document.getElementById('songSelect').classList.add("hide");
-      document.getElementById('ingame').classList.add("hide");
+    } else {
+      songSelectFadeOut(() => {
+        ingameFadeOut();
+      });
     }
   } catch (error) {
     console.log(error);
-  };
+  }
 });
 

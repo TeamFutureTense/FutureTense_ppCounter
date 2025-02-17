@@ -755,3 +755,21 @@ Press ctrl+shift+space in the game to enable in-game overlay editor
 2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateMapMetadata,[3.94ms] Total spent time
 2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateGraph,[0.15ms] Spend on processing graph strains
 2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateGraph,[0.09ms] Spend on processing graph strains
+2025-02-17T06:11:08.200Z debug stable,5672,beatmapPP updateMapMetadata,[0.82ms] Spend on opening beatmap
+2025-02-17T06:11:08.206Z debug stable,5672,beatmapPP updateMapMetadata,[4.06ms] Spend on parsing beatmap
+2025-02-17T06:11:08.206Z debug stable,5672,beatmapPP updateMapMetadata,[6.70ms] Total spent time
+2025-02-17T06:11:08.202Z debug stable,5672,beatmapPP updateMapMetadata,[1.77ms] Spend on attributes & strains calculation
+2025-02-17T06:11:08.208Z debug stable,5672,beatmapPP updateGraph,[1.33ms] Spend on processing graph strains
+2025-02-17T06:11:08.209Z debug stable,5672,beatmapPP updateGraph,[1.17ms] Spend on processing graph strains
+2025-02-17T06:14:09.760Z debug stable,5672,beatmapPP updateMapMetadata,[1.70ms] Spend on opening beatmap
+2025-02-17T06:14:09.763Z debug stable,5672,beatmapPP updateMapMetadata,[2.51ms] Spend on attributes & strains calculation
+2025-02-17T06:14:09.769Z debug stable,5672,beatmapPP updateMapMetadata,[10.58ms] Total spent time
+2025-02-17T06:14:09.769Z debug stable,5672,beatmapPP updateMapMetadata,[6.10ms] Spend on parsing beatmap
+2025-02-17T06:14:09.770Z debug stable,5672,beatmapPP updateGraph,[0.64ms] Spend on processing graph strains
+2025-02-17T06:14:09.771Z debug stable,5672,beatmapPP updateGraph,[0.28ms] Spend on processing graph strains
+2025-02-17T06:16:10.769Z debug stable,5672,beatmapPP updateMapMetadata,[1.47ms] Spend on opening beatmap
+2025-02-17T06:16:10.770Z debug stable,5672,beatmapPP updateMapMetadata,[0.98ms] Spend on attributes & strains calculation
+2025-02-17T06:16:10.777Z debug stable,5672,beatmapPP updateMapMetadata,[6.76ms] Spend on parsing beatmap
+2025-02-17T06:16:10.777Z debug stable,5672,beatmapPP updateMapMetadata,[9.26ms] Total spent time
+2025-02-17T06:16:10.778Z debug stable,5672,beatmapPP updateGraph,[0.53ms] Spend on processing graph strains
+2025-02-17T06:16:10.778Z debug stable,5672,beatmapPP updateGraph,[0.47ms] Spend on processing graph strains

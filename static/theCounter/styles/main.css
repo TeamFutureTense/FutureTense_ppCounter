@@ -57,6 +57,10 @@ body {
   border-radius: var(--border-radius);
 }
 
+.non-icon-unit {
+  min-width: 40px;
+}
+
 .white {
   background-color: white;
   color: #2a2a2a;

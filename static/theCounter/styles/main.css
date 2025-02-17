@@ -72,6 +72,14 @@ body {
   align-items: end;
 }
 
+.section-title {
+  margin-bottom: 1px;
+}
+
 .number-deco-text {
   margin-bottom: 3px;
+}
+
+.hide {
+  display: none;
 }

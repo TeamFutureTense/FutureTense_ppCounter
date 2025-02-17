@@ -725,3 +725,33 @@ Press ctrl+shift+space in the game to enable in-game overlay editor
 2025-02-17T06:03:59.212Z debug stable,5672,beatmapPP updateMapMetadata,[7.87ms] Total spent time
 2025-02-17T06:03:59.213Z debug stable,5672,beatmapPP updateGraph,[0.67ms] Spend on processing graph strains
 2025-02-17T06:03:59.214Z debug stable,5672,beatmapPP updateGraph,[0.61ms] Spend on processing graph strains
+2025-02-17T06:07:14.403Z debug [request],2.04ms,GET,200,text/html; charset=utf-8,/?tab=0
+2025-02-17T06:07:14.410Z debug [ws],closed,7357f50a-e11e,1001,
+2025-02-17T06:07:14.429Z debug [request],0.53ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-02-17T06:07:14.430Z debug [request],1.80ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-02-17T06:07:14.431Z debug [request],0.95ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-02-17T06:07:14.431Z debug [request],0.57ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-02-17T06:07:14.432Z debug [request],1.58ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-02-17T06:07:14.489Z debug [request],0.91ms,GET,200,text/html; charset=utf-8,/theCounter/
+2025-02-17T06:07:14.495Z debug [request],0.41ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-02-17T06:07:14.496Z debug [request],1.47ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-02-17T06:07:14.497Z debug [request],2.14ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-02-17T06:07:14.506Z debug [request],0.38ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/odometr.js
+2025-02-17T06:07:14.506Z debug [request],0.91ms,GET,200,text/css; charset=utf-8,/theCounter/styles/main.css
+2025-02-17T06:07:14.506Z debug [request],0.71ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/countUp.js
+2025-02-17T06:07:14.506Z debug [request],0.61ms,GET,200,text/javascript; charset=utf-8,/theCounter/index.js
+2025-02-17T06:07:14.574Z debug [request],0.54ms,GET,200,text/javascript; charset=utf-8,/theCounter/js/socket.js
+2025-02-17T06:07:14.582Z error /theCounter/styles/fonts/octarine.light.otf,ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.light.otf'
+2025-02-17T06:07:14.582Z debug /theCounter/styles/fonts/octarine.light.otf,Error: ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.light.otf'
+2025-02-17T06:07:14.582Z debug [request],0.98ms,GET,500,application/json,/theCounter/styles/fonts/octarine.light.otf
+2025-02-17T06:07:14.583Z error /theCounter/styles/fonts/octarine.bold.otf,ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.bold.otf'
+2025-02-17T06:07:14.583Z debug /theCounter/styles/fonts/octarine.bold.otf,Error: ENOENT: no such file or directory, stat 'M:\FutureTenseSkinStuff\FutureTenseOverlays\ppCounter\static\theCounter\styles\fonts\octarine.bold.otf'
+2025-02-17T06:07:14.583Z debug [request],0.57ms,GET,500,application/json,/theCounter/styles/fonts/octarine.bold.otf
+2025-02-17T06:07:14.584Z debug [ws],connected,885decdc-e57e
+2025-02-17T06:07:14.615Z debug [request],0.51ms,GET,200,image/vnd.microsoft.icon; charset=utf-8,/assets/favicon.ico
+2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateMapMetadata,[2.35ms] Spend on parsing beatmap
+2025-02-17T06:08:29.672Z debug stable,5672,beatmapPP updateMapMetadata,[0.76ms] Spend on attributes & strains calculation
+2025-02-17T06:08:29.671Z debug stable,5672,beatmapPP updateMapMetadata,[0.75ms] Spend on opening beatmap
+2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateMapMetadata,[3.94ms] Total spent time
+2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateGraph,[0.15ms] Spend on processing graph strains
+2025-02-17T06:08:29.674Z debug stable,5672,beatmapPP updateGraph,[0.09ms] Spend on processing graph strains

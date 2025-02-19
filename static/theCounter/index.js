@@ -131,7 +131,7 @@ function songSelectFadeIn(callback) {
 }
 
 // receive message update for settings
-socket.sendCommand('getSettings', encodeURI("http://127.0.0.1:24050/theCounter"))
+socket.sendCommand('getSettings', encodeURI(window.COUNTER_PATH))
 socket.commands((data) => {
   try {
     const { command, message } = data;

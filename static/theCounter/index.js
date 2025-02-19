@@ -154,6 +154,9 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
         document.getElementById('ingame_totalCounter').innerHTML = Math.round(play.pp.fc);
       }
 
+      // hide total fix
+      document.getElementById("ingame_Section_TotalCounterFix").classList.add("hide")
+
       // update letter grade icon
       if (settings.showGrade) {
         document.getElementById("ingame_Section_Grade").classList.remove("hide");
@@ -169,8 +172,10 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
       // update pp counters
       document.getElementById('ingame_currCounter').innerHTML = Math.round(resultsScreen.pp.current);
       document.getElementById('ingame_totalCounter').innerHTML = Math.round(resultsScreen.pp.fc);
+      document.getElementById('ingame_totalCounterFix').innerHTML = Math.round(performance.accuracy[100]).toString();
 
       document.getElementById("ingame_Section_Grade").classList.add("hide");
+      document.getElementById("ingame_Section_TotalCounterFix").classList.remove("hide")
     } 
     else if (state.name === 'selectPlay') {
       document.getElementById("ingame_Section_Grade").classList.add("hide");

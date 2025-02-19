@@ -12,7 +12,8 @@ const cache = {
 };
 
 const settings = {
-  showGrade: true
+  showGrade: true,
+  showTotalPP: false,
 }
 
 const ingame_currCounter = new CountUp(
@@ -138,6 +139,7 @@ socket.commands((data) => {
       console.log("From FT PPCounter")
       console.log(command, message)
       settings.showGrade = message.ftppShowIngameGrade;
+      settings.showTotalPP = message.ftppShowTotalPP;
 
       if (settings.showGrade === true) {
         document.getElementById("ingame_Section_Grade").classList.remove("hide")
@@ -173,7 +175,14 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
       }
 
       // hide total fix
-      document.getElementById("ingame_Section_TotalCounterFix").classList.add("hide")
+      if (settings.showTotalPP) {
+        document.getElementById("ingame_Section_TotalCounterFix").classList.remove("hide")
+        document.getElementById("ingame_Section_TotalCounter").classList.add("hide")
+      }
+      else {
+        document.getElementById("ingame_Section_TotalCounterFix").classList.add("hide")
+        document.getElementById("ingame_Section_TotalCounter").classList.remove("hide")
+      }
 
       // update letter grade icon
       if (settings.showGrade) {

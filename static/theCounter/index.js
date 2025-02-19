@@ -11,6 +11,10 @@ const cache = {
   accuracy: -1,
 };
 
+const settings = {
+  showGrade: true
+}
+
 const ingame_currCounter = new CountUp(
   'ingame_currCounter', 
   0, 
@@ -107,10 +111,33 @@ function songSelectFadeIn(callback) {
   });
 }
 
+// receive message update for settings
+socket.sendCommand('getSettings', encodeURI("http://127.0.0.1:24050/theCounter"))
+socket.commands((data) => {
+  try {
+    const { command, message } = data;
+    if (command == 'getSettings') {
+      console.log("From FT PPCounter")
+      console.log(command, message)
+      settings.showGrade = message.ftppShowIngameGrade;
+
+      if (settings.showGrade === true) {
+        document.getElementById("ingame_Section_Grade").classList.remove("hide")
+      }
+      else {
+        document.getElementById("ingame_Section_Grade").classList.add("hide")
+      }
+      console.log("Current settings: ", settings)
+    }
+  }
+  catch (error) {
+    console.log(error);
+  }
+})
+
 // receive message update from websocket
 socket.api_v2(({ play, state, performance, resultsScreen }) => {
   try {
-    console.log("Got data from ws");
     // state manager
     if (state.name === "play") {
       songSelectFadeOut(() => {
@@ -128,9 +155,11 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
       }
 
       // update letter grade icon
-      document.getElementById("ingame_Section_Grade").classList.remove("hide");
-      const icon = `./img/ranking-${play.rank.current}-small.svg`;
-      document.getElementById('gradeDisplay').src = icon;
+      if (settings.showGrade) {
+        document.getElementById("ingame_Section_Grade").classList.remove("hide");
+        const icon = `./img/ranking-${play.rank.current}-small.svg`;
+        document.getElementById('gradeDisplay').src = icon;
+      }
     } 
     else if (state.name === 'resultScreen') {
       songSelectFadeOut(() => {

@@ -59,56 +59,74 @@ const songSelect_totalCounter = new CountUp(
 
 const animDuration = 125;
 
+let isTransitionAnimationPlaying = false;
+
 function ingameFadeOut(callback) {
-  anime({
-    targets: '#ingame',
-    opacity: 0,
-    duration: animDuration,
-    easing: 'easeOutQuad',
-    complete: function() {
-      document.getElementById('ingame').classList.add("hide");
-      if (callback) callback();
-    }
-  });
+  if (!isTransitionAnimationPlaying) {
+    isTransitionAnimationPlaying = true;
+    anime({
+      targets: '#ingame',
+      opacity: 0,
+      duration: animDuration,
+      easing: 'easeOutQuad',
+      complete: function() {
+        isTransitionAnimationPlaying = false;
+        document.getElementById('ingame').classList.add("hide");
+        if (callback) callback();
+      }
+    });
+  }
 }
 
 function ingameFadeIn(callback) {
-  document.getElementById('ingame').classList.remove("hide");
-  anime({
-    targets: '#ingame',
-    opacity: 1,
-    duration: animDuration,
-    easing: 'easeOutQuad',
-    complete: function() {
-      if (callback) callback();
-    }
-  });
+  if (!isTransitionAnimationPlaying) {
+    isTransitionAnimationPlaying = true;
+    document.getElementById('ingame').classList.remove("hide");
+    anime({
+      targets: '#ingame',
+      opacity: 1,
+      duration: animDuration,
+      easing: 'easeOutQuad',
+      complete: function() {
+        isTransitionAnimationPlaying = false;
+        if (callback) callback();
+      }
+    });
+  }
 }
 
 function songSelectFadeOut(callback) {
-  anime({
-    targets: '#songSelect',
-    opacity: 0,
-    duration: animDuration,
-    easing: 'easeOutQuad',
-    complete: function() {
-      document.getElementById('songSelect').classList.add("hide");
-      if (callback) callback();
-    }
-  });
+  if (!isTransitionAnimationPlaying) {
+    isTransitionAnimationPlaying = true;
+    anime({
+      targets: '#songSelect',
+      opacity: 0,
+      duration: animDuration,
+      easing: 'easeOutQuad',
+      complete: function() {
+        isTransitionAnimationPlaying = false;
+        document.getElementById('songSelect').classList.add("hide");
+        if (callback) callback();
+      }
+    });
+  }
 }
 
 function songSelectFadeIn(callback) {
-  document.getElementById('songSelect').classList.remove("hide");
-  anime({
-    targets: '#songSelect',
-    opacity: 1,
-    duration: animDuration,
-    easing: 'easeOutQuad',
-    complete: function() {
-      if (callback) callback();
-    }
-  });
+  if (!isTransitionAnimationPlaying) {
+    isTransitionAnimationPlaying = true;
+    document.getElementById('songSelect').classList.remove("hide");
+    anime({
+      targets: '#songSelect',
+      opacity: 1,
+      duration: animDuration,
+      easing: 'easeOutQuad',
+      complete: function() {
+        isTransitionAnimationPlaying = false;
+        if (callback) callback();
+      }
+    });
+  }
 }
 
 // receive message update for settings

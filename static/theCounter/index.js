@@ -176,6 +176,8 @@ socket.api_v2(({ play, state, performance, resultsScreen }) => {
 
       // hide total fix
       if (settings.showTotalPP) {
+        // update
+        document.getElementById('ingame_totalCounterFix').innerHTML = Math.round(performance.accuracy[100]).toString();
         document.getElementById("ingame_Section_TotalCounterFix").classList.remove("hide")
         document.getElementById("ingame_Section_TotalCounter").classList.add("hide")
       }
